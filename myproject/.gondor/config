@@ -1,0 +1,9 @@
+[app]
+requirements_file = requirements/project.txt
+wsgi_entry_point = deploy.wsgi
+migrations = none
+
+[gondor]
+site_key = <EDIT ME>
+vcs = git
+
