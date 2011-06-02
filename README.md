@@ -19,3 +19,10 @@ Django settings
 - Gondor wsgi configuration uses 'settings.production' module by default, which imports gondor's "local_settings.py"
 - Gondor's "local_settings.py" overrides MEDIA_ROOT and STATIC_ROOT, but a sample configuration exists for local development
 
+
+Quirks!
+-------
+
+- Using "settings.<foo>" for configuration is currently incompatible with Gondor's CLI (remote syncdb), which
+imports "settings_<instance name>". Work in progress 
+
