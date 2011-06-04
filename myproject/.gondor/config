@@ -4,6 +4,6 @@ wsgi_entry_point = deploy.wsgi
 migrations = none
 
 [gondor]
-site_key = <EDIT ME>
+site_key = EBJQ2AFD30H
 vcs = git
 

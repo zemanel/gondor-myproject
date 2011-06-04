@@ -156,3 +156,9 @@ LOGGING = {
         },
     }
 }
+
+# Import Gondor remote settings
+try:
+    from local_settings import *
+except ImportError:
+    pass
