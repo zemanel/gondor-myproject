@@ -1,8 +1,8 @@
-# Django settings for myproject project.
+# Django settings for laborio project.
 import os
 
 # directory of manage.py
-PROJECT_ROOT = os.path.abspath(os.path.join(os.path.abspath(os.path.dirname(__file__)), os.pardir)) 
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.abspath(os.path.dirname(__file__)))) 
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -104,7 +104,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
 )
 
-ROOT_URLCONF = 'myproject.urls'
+ROOT_URLCONF = 'laborio.urls'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
