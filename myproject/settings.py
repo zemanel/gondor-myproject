@@ -1,4 +1,4 @@
-# Django settings for laborio project.
+# Django settings for myproject project.
 import os
 
 # directory of manage.py
@@ -104,7 +104,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
 )
 
-ROOT_URLCONF = 'laborio.urls'
+ROOT_URLCONF = 'myproject.urls'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
