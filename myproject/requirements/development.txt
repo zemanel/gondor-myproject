@@ -1,0 +1,7 @@
+# local development requirements (pulls project.txt)
+--requirement=project.txt
+
+# put your project local development utilities here
+
+django-extensions==0.7.1
+django-debug-toolbar==0.8.5
