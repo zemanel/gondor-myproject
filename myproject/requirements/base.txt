@@ -1,0 +1,8 @@
+# gondor.io runtime enviroment https://gondor.io/support/runtime-environment/
+gondor==1.0
+psycopg2==2.4.1
+gunicorn==0.12.2
+
+# base project requirements
+Django==1.3.1
+PIL==1.1.7

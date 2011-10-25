@@ -1,3 +1,4 @@
-django==1.3
-gondor==1.0b1.post1
-psycopg2==2.4.1
+# project requirements (pulls base.txt)
+--requirement=base.txt
+
+# put your project staging/production specific requirements here 
