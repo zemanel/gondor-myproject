@@ -15,6 +15,25 @@ How to use
 - Edit myproject/.gondor/config and at least change SECRET_KEY
 - Delete the **hello_world** app and remove it's references on **settings.py**, **urls.py** and **initial_data.json**
 
+
+Local development
+-----------------
+
+Create a **local_settings.py** at the same package level as **settings.py** and add your local environment settings, for example:
+
+    # myproject/local_settings.py
+    DATABASES = {
+      'default': {
+        'ENGINE'    : 'django.db.backends.postgresql_psycopg2',
+        'NAME'      : 'my_project_database',
+        'USER'      : 'username1',
+        'PASSWORD'  : 'you_will_never_guess_this',
+        'HOST'      : '',
+        'PORT'      : '',
+      }
+    }
+
+
 Django settings
 ---------------
 
