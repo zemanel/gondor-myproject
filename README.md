@@ -41,8 +41,6 @@ This project has a "settings.py" mostly based on Django "startproject" defaults,
 
 The WSGI entry point's ("deploy.wsgi") **DJANGO_SETTINGS_MODULE** enviroment variable is configured on "wsgi.py"
 
-[django.contrib.staticfiles](https://docs.djangoproject.com/en/dev/howto/static-files/#using-django-contrib-staticfiles) is enabled by default.
-
 Per-instance settings
 ---------------------
 
@@ -56,4 +54,13 @@ Media files
 -----------
 
 Gondor config is configured to serve static/media files from **/site_media/static/** and **/site_media/media/** respectively.
+
+[django.contrib.staticfiles](https://docs.djangoproject.com/en/dev/howto/static-files/#using-django-contrib-staticfiles) is enabled by default.
+
+Static and media folders exist in the project, **site_media/static** and **site_media/media** respectively, at least for local testing purposes.
+
+Gondor does not serve files from those folders on deployed instances. Existing **STATIC_ROOT** and **MEDIA_ROOT** settings will be overriden by remote **local_settings.py**.
+
+For reference, take a look at the *bundle* layout on <https://gondor.io/support/runtime-environment/>
+
 
