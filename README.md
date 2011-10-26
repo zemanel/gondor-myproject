@@ -13,6 +13,7 @@ How to use
 
 - Refactor from "myproject" to whatever you like
 - Edit myproject/.gondor/config and at least change SECRET_KEY
+- Delete the **hello_world** app and remove it's references on **settings.py**, **urls.py** and **initial_data.json**
 
 Django settings
 ---------------
